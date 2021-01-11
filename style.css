@@ -18,9 +18,28 @@ body {
 
 /* Personal details section */
 #personal-details {
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   width: 100%;
-  height: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#personal-details .image {
+  width: 50%;
+  background-color: white;
+}
+
+#personal-details img {
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+#personal-details .about {
+  width: 50%;
+  padding-top: 100px;
 }
 
 
@@ -72,6 +91,33 @@ body {
 }
 
 
+@media screen and (max-width: 1000px) {
+  #personal-details {
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #personal-details .image {
+    width: 90%;
+    background-color: white;
+  }
+  
+  #personal-details img {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    margin-top: 40px;  
+  }
+  #personal-details .about {
+    width: 90%;
+    padding-top: 80px;
+  }
+}
+
+
 @media screen and (min-width: 1000px) {
   #nav-header {
    
@@ -85,4 +131,6 @@ body {
    margin-right: 10px;
    
   }
+ 
 }
+
