@@ -48,8 +48,41 @@ body {
   background-color: cornflowerblue;
   width: 100%;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+#skills .technologies {
+  display: flex;
+  flex-direction: row;
+}
+#skills .front-end {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  
+}
+#skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skills li {
+  /* background-color: wheat; */
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+}
+#skills img {
+  width: 100px;
+  height: 100;
 }
 
+#skills .back-end {
+  background-color: rgb(122, 158, 206);
+  width: 50%;
+}
 
 
 /* Additional Skills section  */
