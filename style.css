@@ -104,12 +104,83 @@ body {
 /* Contact section */
 
 #contact {
-  background-color:rgb(8, 53, 53);
   width: 100%;
-  height: 500px;
+}
+ul.socialIcons {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.socialIcons li {
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 400ms;
+}
+
+.socialIcons li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+ font-size: 40px;
+}
+.socialIcons li p {
+ display: none;
+}
+.socialIcons li:hover {
+  width: 70px;
+  height: 70px; 
+}
+
+.socialIcons li:hover p {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.socialIcons li:hover a {
+  transform: scale(1.1);
+
 }
 
 
+.socialIcons .gmail {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+}  
+ 
+.socialIcons .linkedin {
+  background-color:rgb(10,102,194);
+  box-shadow: 0 0 16px rgb(10,102,194);
+}  
+ 
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .whatsapp {
+  background-color: #1bce89;
+  box-shadow: 0 0 16px #1bce89;
+}
+
+
+
+/* Footer */
 #footer {
   height: 100px;
   width: 100vw;
@@ -124,6 +195,7 @@ body {
   margin: 0 auto;
 }
 
+/* Media queries */
 
 @media screen and (max-width: 1000px) {
   #personal-details {
