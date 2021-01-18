@@ -14,11 +14,19 @@ body {
   flex-direction: column;
   width: 100%;
 }
-
+/* Header */
+#header {
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(46, 46, 48);
+}
+#nav-header {
+  padding-top: 40px;
+  background-color: rgb(46, 46, 48) !important;
+}
 
 /* Personal details section */
 #personal-details {
-  /* background-color: cadetblue; */
   width: 100%;
   height: 600px;
   display: flex;
@@ -45,9 +53,7 @@ body {
 
 /* Skills and technologies section */
 #skills {
-  /* background-color: cornflowerblue; */
   width: 100%;
-  /* height: 500px; */
   display: flex;
   flex-direction: column;
 }
@@ -92,7 +98,7 @@ body {
   background-color:rgb(240,240,240);
   height: 500px;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 #desktop-view {
  width: 100%;
@@ -368,6 +374,8 @@ body {
 /* Contact section */
 
 #contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 100%;
 }
 ul.socialIcons {
