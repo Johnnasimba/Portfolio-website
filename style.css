@@ -96,9 +96,13 @@ body {
 
 #projects {
   background-color:rgb(240,240,240);
-  height: 500px;
+  height: 550px;
   width: 100%;
   margin-top: 100px;
+}
+#projects h3 {
+  background-color: #fff;
+  padding-bottom: 10px;
 }
 #desktop-view {
  width: 100%;
