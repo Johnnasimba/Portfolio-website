@@ -7,7 +7,8 @@
     <link rel="icon" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./projects.css">
 </head>
 <body>
     <!-- Header -->
@@ -21,10 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item ">
-                  <a class="nav-link" href="#content">Home</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="#">Skills</a>
@@ -49,11 +47,11 @@
             <div class="image" >             
                    <img src="johnnasimba.jpg" alt="John Nasimba" class="img-fluid rounded-circle">
             </div>
-            <div class="about">
-                <h2>Hi, My name is John Nasimba.</h2>
-                <h4>I'm a Full stack developer from Cape Town</h4>
-                <p>
-                    I am a self-taught full-stack web developer professional with experience in Front-end development, Back-end development, and Database development. I have good knowledge in the fields of programming languages (PHP, JavaScript, HTML, and CSS), frameworks(Laravel, Express, React, Jquery, Bootstrap, Materializecss), databases (MySQL, SQli, MongoDB), and other tools and technologies such as Command line, Node.js, AWS, Firebase, Heroku, Namecheap, and many more.</p>
+            <div class="about" id="about">
+                <h4>Hi,  I am JOHN NASIMBA.</h4>
+                <p>I'm a passionate full-stack developer from Cape Town, South Africa. I enjoy learning programming and coding every day. Most of my work experience comes from the projects I have been building while learning.</p>
+                <p>Being a full-stack developer, I have a wide range of knowledge in front-end development, Back-end development, Database Development, and APIs development. </p>
+                <p>It will be an honor to work at any company with other professionals or independently as a front-end developer, back-end developer, or both. </p>
             </div>
 
         </section>
@@ -173,261 +171,287 @@
 
         <!-- Projects -->
         <section id="projects">
-            <!-- Desktop View -->
-            <h3 align=center>PROJECTS</h3>
-            <div id="desktop-view">
+              <!-- Desktop View -->
+              <div id="desktop-view">
+
                 <div class="slides-container" id="desktop-slides-container" align=center>
-                <!-- First coard group -->
-                <div class="card-group" id="firstCardGroup">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="images/jobseeker.png" alt="Card image cap">
-                        <div class="card-body">
+                  <!-- First coard group -->
+                    <div class="card-group" id="firstCardGroup">
+                        <div class="card">
+                          <img class="card-img-top img-fluid" src="images/jobseeker.png" alt="Card image cap">
+                          <div class="card-body">
                             <h5 class="card-title">Hout bay Job Seekers</h5>
                             <p class="card-text">This website allows Hout bay job seekers to host their profiles online so that potential employers and recruiters can easily find them.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
+                          </div>
+                          <div class="card-footer">
+                            <a  href="https://houtbayonline.herokuapp.com/" target="blank" class="view-live">
+                                <i class="fas fa-link"></i>                                     
+                                <p class="live">View live</p>
                             </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
+                            <a href="https://github.com/Johnnasimba/Houtbay" target="blank" class="source-code">
+                                <i class="fab fa-github"></i>
+                                <p class="code">Source code</p>
+
                             </a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top img-fluid"  src="images/onlinestore.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card">
+                          <img class="card-img-top img-fluid"  src="images/onlinestore.png" alt="Card image cap">
+                          <div class="card-body">
                             <h5 class="card-title">Clothing Store</h5>
                             <p class="card-text">An online shopping website for a clothing store where the store can post different categories of their cloths and users can buy using credit cards.</p>
+                          </div>
+                          <div class="card-footer">
+                                <a  href="https://johnnasimba.github.io/E-commerce-site----React/" target="blank" class="view-live">
+                                    <i class="fas fa-link"></i>                                     
+                                    <p class="live">View live</p>
+                                </a>
+                                <a href="https://github.com/Johnnasimba/E-commerce-site----React" target="blank" class="source-code">
+                                    <i class="fab fa-github"></i>
+                                    <p class="code">Source code</p>
+
+                                </a>
+                          </div>
                         </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card ">
-                        <img class="card-img-top img-fluid"  src="images/light&dark.png" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card ">
+                          <img class="card-img-top img-fluid"  src="images/light&dark.png" alt="Card image cap">
+                          <div class="card-body">
                             <h5 class="card-title">Light and Dark mode</h5>
-                            <p class="card-text">The idea behind this website is to demostrate the technicality behind light and dark mode which is commonly used these days.</p>
+                            <p class="card-text">The idea behind this website is to demonstrate the technicality behind light and dark mode which is commonly used these days.</p>
+                          </div>
+                          <div class="card-footer">
+                                <a  href="https://johnnasimba.github.io/Light-Dark-mode/" target="blank" class="view-live">
+                                    <i class="fas fa-link"></i>                                     
+                                    <p class="live">View live</p>
+                                </a>
+                                <a href="https://github.com/Johnnasimba/Light-Dark-mode" target="blank" class="source-code">
+                                    <i class="fab fa-github"></i>
+                                    <p class="code">Source code</p>
+
+                                </a>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
+                      </div>
+                        
+
+                      <!-- Second card group -->
+                    <div class="card-group" id="secondCardGroup">
+                        <div class="card">
+                          <img class="card-img-top img-fluid" src="./images/infinity.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Infinity Scroll</h5>
+                            <p class="card-text">The project demonstrates how infinity scrolling, commonly used on social media platforms, can be implemented using Javascript.</p>
+                          </div>
+                          <div class="card-footer">
+                            <a  href="https://johnnasimba.github.io/Infinite-Scroll/" target="blank" class="view-live">
+                                <i class="fas fa-link"></i>                                     
+                                <p class="live">View live</p>
                             </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
+                            <a href="https://github.com/Johnnasimba/Infinite-Scroll" target="blank" class="source-code">
+                                <i class="fab fa-github"></i>
+                                <p class="code">Source code</p>
+
                             </a>
+                          </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Second card group -->
-                <div class="card-group" id="secondCardGroup">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Hout bay Job Seekers</h5>
-                            <p class="card-text">This website allows Hout bay job seekers to host their profiles online so that potential employers and recruiters can easily find them.</p>
+                        <div class="card">
+                          <img class="card-img-top img-fluid"  src="./images/timer.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Custom Countdown</h5>
+                            <p class="card-text">You can use this website to keep track of the time left to reach a certain day. Closing the browser or switching off your computer does not affect the count down.</p>
+                          </div>
+                          <div class="card-footer">
+                                <a  href="https://johnnasimba.github.io/Custom-Countdown/" target="blank" class="view-live">
+                                    <i class="fas fa-link"></i>                                     
+                                    <p class="live">View live</p>
+                                </a>
+                                <a href="https://github.com/Johnnasimba/Custom-Countdown" target="blank" class="source-code">
+                                    <i class="fab fa-github"></i>
+                                    <p class="code">Source code</p>
+
+                                </a>
+                          </div>
                         </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
+                        <div class="card ">
+                          <img class="card-img-top img-fluid"  src="./images/Rock.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Spock Rock Game</h5>
+                            <p class="card-text">It's a game similar to Rock Paper Scissors with two more choices. Lizard and Spock. If you enjoy playing games on the computer, this is for you. 
+                              Good luck!.</p>
+                          </div>
+                          <div class="card-footer">
+                                <a  href="https://johnnasimba.github.io/Rock-Paper-Scissors/" target="blank" class="view-live">
+                                    <i class="fas fa-link"></i>                                     
+                                    <p class="live">View live</p>
+                                </a>
+                                <a href="https://github.com/Johnnasimba/Rock-Paper-Scissors" target="blank" class="source-code">
+                                    <i class="fab fa-github"></i>
+                                    <p class="code">Source code</p>
+
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top img-fluid"  src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Clothing Store</h5>
-                            <p class="card-text">An online shopping website for a clothing store where the store can post different categories of their cloths and users can buy using credit cards.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card ">
-                        <img class="card-img-top img-fluid"  src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Light and Dark mode</h5>
-                            <p class="card-text">The idea behind this website is to demostrate the technicality behind light and dark mode which is commonly used these days.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card group -->
-                </div>
-                <!-- Desktop navigation -->
+                      </div>
+                      <!-- End of card group -->
+              </div>
+                        <!-- Desktop navigation -->
                 <div class="desktop-navigation">
-                <div class="prev-btn arrow"><i class="fas fa-chevron-left"></i></div>
-                <div class="navigation-dots" id="desktop-navigation-dots">
+                  <div class="prev-btn arrow"><i class="fas fa-chevron-left"></i></div>
+                  <div class="navigation-dots" id="desktop-navigation-dots">
+            
+                  </div>
+                  <div class="next-btn arrow "><i class="fas fa-chevron-right"></i></div>
+                  
                 </div>
-                <div class="next-btn arrow "><i class="fas fa-chevron-right"></i></div>
+       
+        </div>
+
+        <!-- Mobile View -->
+        <div class="container" id="mobile-view">
+          <div class="mobile-slides-container">
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card  mobile-card">
+                <img class="card-img-top img-fluid" src="images/jobseeker.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Hout bay Job Seekers</h5>
+                  <p class="card-text">This website allows Hout bay job seekers to host their profiles online so that potential employers and recruiters can easily find them.</p>
                 </div>
+                <div class="card-footer">
+                  <a  href="https://houtbayonline.herokuapp.com/" target="blank" class="view-live">
+                      <i class="fas fa-link"></i>                                     
+                      <p class="live">View live</p>
+                  </a>
+                  <a href="https://github.com/Johnnasimba/Houtbay" target="blank" class="source-code">
+                      <i class="fab fa-github"></i>
+                      <p class="code">Source code</p>
+
+                  </a>
+                </div>
+             </div>
             </div>
-            <!-- Mobile View -->
-            <div class="container" id="mobile-view">
-                <div class="mobile-slides-container">
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card  mobile-card">
-                        <img class="card-img-top img-fluid" src="images/jobseeker.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Hout bay Job Seekers</h5>
-                            <p class="card-text">This website allows Hout bay job seekers to host their profiles online so that potential employers and recruiters can easily find them.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+             
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card mobile-card">
+                <img class="card-img-top img-fluid"  src="images/onlinestore.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Clothing Store</h5>
+                  <p class="card-text">An online shopping website for a clothing store where the store can post different categories of their cloths and users can buy using credit cards.</p>
                 </div>
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card mobile-card">
-                        <img class="card-img-top img-fluid"  src="images/onlinestore.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Clothing Store</h5>
-                            <p class="card-text">An online shopping website for a clothing store where the store can post different categories of their cloths and users can buy using credit cards.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="card-footer">
+                  <a  href="https://johnnasimba.github.io/E-commerce-site----React/" target="blank" class="view-live">
+                      <i class="fas fa-link"></i>                                     
+                      <p class="live">View live</p>
+                  </a>
+                  <a href="https://github.com/Johnnasimba/E-commerce-site----React" target="blank" class="source-code">
+                      <i class="fab fa-github"></i>
+                      <p class="code">Source code</p>
+
+                  </a>
+               </div>
+             </div>
+             </div>
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card mobile-card">
+                <img class="card-img-top img-fluid"  src="images/light&dark.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Light and Dark mode</h5>
+                  <p class="card-text">The idea behind this website is to demonstrate the technicality behind light and dark mode which is commonly used these days.</p>
                 </div>
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card mobile-card">
-                        <img class="card-img-top img-fluid"  src="images/light&dark.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Light and Dark mode</h5>
-                            <p class="card-text">The idea behind this website is to demostrate the technicality behind light and dark mode which is commonly used these days.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="card-footer">
+                    <a  href="https://johnnasimba.github.io/Light-Dark-mode/" target="blank" class="view-live">
+                      <i class="fas fa-link"></i>                                     
+                        <p class="live">View live</p>
+                    </a>
+                    <a href="https://github.com/Johnnasimba/Light-Dark-mode" target="blank" class="source-code">
+                      <i class="fab fa-github"></i>
+                      <p class="code">Source code</p>
+
+                  </a>
                 </div>
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card mobile-card">
-                        <img class="card-img-top img-fluid" src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Hout bay Job Seekers</h5>
-                            <p class="card-text">This website allows Hout bay job seekers to host their profiles online so that potential employers and recruiters can easily find them.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+             </div>
+             </div>
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card mobile-card">
+                <img class="card-img-top img-fluid" src="./images/infinity.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Infinity Scroll</h5>
+                  <p class="card-text">The project demonstrates how infinity scrolling, commonly used on social media platforms, can be implemented using Javascript.</p>
                 </div>
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card mobile-card">
-                        <img class="card-img-top img-fluid"  src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Clothing Store</h5>
-                            <p class="card-text">An online shopping website for a clothing store where the store can post different categories of their cloths and users can buy using credit cards.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="card-footer">
+                  <a  href="https://johnnasimba.github.io/Infinite-Scroll/" target="blank" class="view-live">
+                      <i class="fas fa-link"></i>                                     
+                      <p class="live">View live</p>
+                  </a>
+                  <a href="https://github.com/Johnnasimba/Infinite-Scroll" target="blank" class="source-code">
+                      <i class="fab fa-github"></i>
+                      <p class="code">Source code</p>
+
+                  </a>
                 </div>
-                <!-- card -->
-                <div class="slide-card">
-                    <div class="card mobile-card">
-                        <img class="card-img-top img-fluid"  src="" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Light and Dark mode</h5>
-                            <p class="card-text">The idea behind this website is to demostrate the technicality behind light and dark mode which is commonly used these days.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a  href="#" class="view-live">
-                            <i class="fas fa-link"></i>                                     
-                            <p class="live">View live</p>
-                            </a>
-                            <a href="#" class="source-code">
-                            <i class="fab fa-github"></i>
-                            <p class="code">Source code</p>
-                            </a>
-                        </div>
-                    </div>
+             </div>
+             </div>
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card mobile-card">
+                <img class="card-img-top img-fluid"  src="./images/timer.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Custom Countdown</h5>
+                  <p class="card-text">You can use this website to keep track of the time left to reach a certain day. Closing the browser or switching off your computer does not affect the count down.</p>
                 </div>
+                <div class="card-footer">
+                      <a  href="https://johnnasimba.github.io/Custom-Countdown/" target="blank" class="view-live">
+                          <i class="fas fa-link"></i>                                     
+                          <p class="live">View live</p>
+                      </a>
+                      <a href="https://github.com/Johnnasimba/Custom-Countdown" target="blank" class="source-code">
+                          <i class="fab fa-github"></i>
+                          <p class="code">Source code</p>
+
+                      </a>
                 </div>
-                <!-- Mobile navigation -->
-                <div class="mobile-navigation">
-                <div class="prev-btn arrow" id="prev-btn"><i class="fas fa-chevron-left"></i></div>
-                <div class="mobile-navigation-dots">
+             </div>
+             </div>
+            <!-- card -->
+            <div class="slide-card">
+              <div class="card mobile-card">
+                <img class="card-img-top img-fluid"  src="./images/Rock.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Spock Rock Game</h5>
+                  <p class="card-text">It's a game similar to Rock Paper Scissors with two more choices. Lizard and Spock. If you enjoy playing games on the computer, this is for you. 
+                    Good luck!.</p>
                 </div>
-                <div class="next-btn arrow " id="next-btn"><i class="fas fa-chevron-right"></i></div>
-                </div>
-            </div>
-        </section>
+                <div class="card-footer">
+                      <a  href="https://johnnasimba.github.io/Rock-Paper-Scissors/" target="blank" class="view-live">
+                          <i class="fas fa-link"></i>                                     
+                          <p class="live">View live</p>
+                      </a>
+                      <a href="https://github.com/Johnnasimba/Rock-Paper-Scissors" target="blank" class="source-code">
+                          <i class="fab fa-github"></i>
+                          <p class="code">Source code</p>
+
+                      </a>
+                  </div>
+             </div>
+             </div>
+         
+          </div>
+
+           <!-- Mobile navigation -->
+        <div class="mobile-navigation">
+          <div class="prev-btn arrow" id="prev-btn"><i class="fas fa-chevron-left"></i></div>
+          <div class="mobile-navigation-dots">
+          </div>
+          <div class="next-btn arrow " id="next-btn"><i class="fas fa-chevron-right"></i></div>
+           
+        </div>
+
+
+        </div>
+    </section>
         
         <!-- Contact -->
         <section id="contact">
