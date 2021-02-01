@@ -82,7 +82,9 @@
   color: #000;
 }
 .fa-link:hover,
-.live:hover {
+.live:hover,
+.fa-github:hover,
+.code:hover {
   text-decoration: underline;
   transform: scale(1.01);
 }
