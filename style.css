@@ -296,6 +296,14 @@ ul.socialIcons {
   #personal-details {
     height: 750px;
   }
+
+  #micro-credentials  {
+    padding-right: 0;
+    padding-left:0;
+  }
+  #micro-credentials h2{
+    font-size:1.4rem;
+  }
 }
 @media screen and (max-width:350px) {
   #personal-details {
