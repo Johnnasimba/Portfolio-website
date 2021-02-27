@@ -101,7 +101,31 @@ body {
   width: 50%;
 }
 
-
+/* Micro-credentials */
+#micro-credentials {
+  background-color: #3b5998;
+  margin: 100px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#micro-credentials h2 {
+  color: #fff;
+}
+#micro-credentials a {
+  background-color: rgb(187, 183, 183);
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
 
 /* Contact section */
 
